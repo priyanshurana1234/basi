@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #15171E;
+}
+
+p{
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.nav1{
+    display: flex;
+    gap: 30px;
+    margin-right: 250px;
+    align-items: center;
+}
+.nav1 button{
+    background-color: #F36C3E;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    
+}
+.logo img{
+    width: 130px;
+    margin-left: 300px;
+    
+}
+.nav1 div{
+    text-align: center;
+}
+.header2{
+    display: flex;
+    margin-top: 10px;
+    border: 0.1px solid gray;
+}
+.nav2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    margin-left: 650px;
+    font-size: 17px;
+    gap: 40px
+    ;
+}
+.nav2 select{
+    background-color: transparent;
+    color: white;
+    border: transparent;
+}
