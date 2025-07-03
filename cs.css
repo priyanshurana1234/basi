@@ -1,0 +1,143 @@
+/* .container{
+    width: 200px;
+    height: 200px;
+        background-color: red;
+        position: absolute;
+}
+.main{
+    background-color: black;
+     width: 200px;
+    height: 200px;
+}
+
+.box0{
+
+
+    animation-name: myAnimation;
+    animation-duration: 1s;
+}
+@keyframes myAnimation {
+    0%{
+        margin-left: 0%;
+    }
+    100%{
+        margin-left: 90%;
+    }
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: myAnimations;
+    animation-duration: 1s;
+}
+@keyframes myAnimations {
+    0%{
+        margin-left: 90%;
+    }
+    100%{
+        margin-top: 50%;
+    }
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: myAnimationss;
+    animation-duration: 1s;
+}
+@keyframes  myAnimationss {
+    0%{
+        margin-left: 90%;
+        margin-top: 50%;
+    }
+    100%{
+        margin-top: 50%;
+    }
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: myAnimationsss;
+    animation-duration: 1s;
+}
+@keyframes  myAnimationss {
+    0%{
+        
+        margin-top: 50%;
+    }
+    100%{
+        margin: 0%;
+    }
+} */
+ 
+
+
+body{
+    background-color:#1e1e1e ;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.calculator{
+    background: #2b2b2b;
+    padding: 30px;
+    border-radius: 20px;
+     box-shadow: inset 2px 2px 5px #1a1a1a, inset -5px -5px 10px #353535;
+
+}
+.text1{
+    width: 300px;
+    height: 50px;
+              font-size: 30px;
+              background: transparent;
+              margin-bottom: 20px;
+              margin-left: 18px;
+              border-radius: 10px;
+              border: none;
+              color: white;
+               box-shadow: inset 2px 2px 5px #1a1a1a, inset -5px -5px 10px #353535;
+
+
+
+}
+input[type="button"]{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+input[value="="]{
+    background-color: orange;
+
+}
+input[value="+"]{
+    color: green;
+}
+input[value="-"]{
+    color: green;
+}
+input[value="*"]{
+    color: green;
+}
+input[value="/"]{
+    color: green;
+}
+input[value="%"]{
+    color: green;
+}
+input[value="DEL"]{
+    color: green;
+}
+input[value="AC"]{
+    color: green;
+}
+
