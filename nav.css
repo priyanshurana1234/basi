@@ -1,0 +1,54 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.options {
+    color: white;
+    margin-right: 20px;
+
+}
+
+.options ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.menu img {
+    width: 40px;
+    margin-left:20px;
+    
+
+}
+
+
+
+.menu ul{
+    color: white;
+    list-style: none;
+    gap: 20px;
+    display: none;
+    background-color: black;
+}
+
+.menu {
+    display: none;
+}
+@media screen and (max-width: 550px) {
+    .options ul {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
