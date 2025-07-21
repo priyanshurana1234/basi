@@ -149,6 +149,7 @@ transform: scale(1.05);
   font-weight: bold;
   margin-left: 12px;
   border: none;
+  cursor: pointer;
 }
 .login:hover {
   transform: scale(1.1);
@@ -320,4 +321,45 @@ justify-content: space-between;
 }
 .footercont2 button:hover{
   transform: scale(1.05);
+}
+.bigcont{
+  display: flex;
+}
+.songs{
+
+width: 1229px;
+  background-color: #202020;
+  margin-left: 10px;
+  border-radius: 10px;
+  
+}
+.tops{
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending a{
+  display: inline-block;
+  padding-left: 40px;
+  color: white;
+  font-size: 29px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.trending a:hover{
+  text-decoration: underline white;
+}
+.show a{
+  display: inline-block;
+  margin-top: 39px;
+  padding-right: 40px;
+
+  color: #AEAEAE;
+cursor: pointer;
+text-decoration: none;
+}
+.show a:hover{
+  text-decoration: underline white;
 }
